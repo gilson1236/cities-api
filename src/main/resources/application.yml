@@ -1,14 +1,3 @@
-#server:
-  #port: ${PORT:8080}
-
-#spring:
-  #datasource:
-    #url: jdbc:postgresql://localhost:5432/cities
-
-    #username: postgres
-
-    #password: GilGPACD12!
-
 server:
   port: 8080
 
@@ -18,9 +7,12 @@ spring:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/cities
     username: postgres
-    password: GilGPACD12!
+    password: postgres
   jpa:
     database: POSTGRESQL
     show-sql: true
     hibernate:
       ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
