@@ -5,7 +5,8 @@ Neste projeto do Digital Innovation One desenvolvemos um pequeno sistema de busc
 Foram desenvolvidos para atingir o objetivo:
 
 * Setup inicial de projeto com o Spring Boot Initialzr
-* Geração de database e tabelas de bancos de dados a partir das queries SQL
+* Geração de database e tabelas de bancos de dados a partir das queries SQL de paises, estados e cidades, dadas
+  nesse link do github aqui: https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL
 * Criação de modelo de dados para o mapeamento de entidades em bancos de dados
 * Desenvolvimento de operações de consulta de países, estados e cidades
 * Relação da operação de busca com o padrão arquitetural REST durante o desenvolvimento do projeto
